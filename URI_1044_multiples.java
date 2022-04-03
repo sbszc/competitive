@@ -6,7 +6,6 @@ public class URI_1044_multiples {
 		Scanner scanner = new Scanner(System.in);
 		float a = scanner.nextFloat();
 		float b = scanner.nextFloat();
-		float c = scanner.nextFloat();
 
 		if (a % b == 0 || b % a == 0) {
 			System.out.println("Sao Multiplos");
@@ -14,5 +13,6 @@ public class URI_1044_multiples {
 			System.out.println("Nao sao Multiplos");
 		}
 
+		scanner.close();
 	}
 }

@@ -20,5 +20,6 @@ public class URI_1042_simple_sort {
 		System.out.println(b);
 		System.out.println(c);
 
+		scanner.close();
 	}
 }

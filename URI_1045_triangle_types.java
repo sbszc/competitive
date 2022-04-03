@@ -17,6 +17,7 @@ public class URI_1045_triangle_types {
 
 		if (a >= b + c) {
 			System.out.println("NAO FORMA TRIANGULO");
+			scanner.close();
 			return;
 		}
 
@@ -34,5 +35,7 @@ public class URI_1045_triangle_types {
 		} else if ((a == b && a != c) || (b == c && b != a) || (c == a && c != b)) {
 			System.out.println("TRIANGULO ISOSCELES");
 		}
+
+		scanner.close();
 	}
 }

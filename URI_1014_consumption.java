@@ -13,5 +13,7 @@ public class URI_1014_consumption {
 
 		String formattedConsumption = new DecimalFormat("0.000").format(consumption);
 		System.out.println(formattedConsumption + " km/l");
+
+		scanner.close();
 	}
 }

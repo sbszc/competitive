@@ -10,5 +10,7 @@ public class URI_1004_simple_product {
 		int prod = a * b;
 		
 		System.out.println("PROD = " + prod);
+
+		scanner.close();
 	}
 }

@@ -10,5 +10,7 @@ public class URI_1003_simple_sum {
 		int soma = a + b;
 		
 		System.out.println("SOMA = " + soma);
+
+		scanner.close();
 	}
 }

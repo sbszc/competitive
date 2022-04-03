@@ -23,5 +23,6 @@ public class URI_1041_coordinates_of_a_point {
 			System.out.println("Origem");
 		}
 
+		scanner.close();
 	}
 }

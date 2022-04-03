@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class URI_1038_snack {
 
 	public static void main(String[] args) {
-		HashMap<Integer, Float> items = new HashMap();
+		var items = new HashMap<Integer, Float>();
 		items.put(1, 4.0f);
 		items.put(2, 4.5f);
 		items.put(3, 5.0f);
@@ -20,5 +20,7 @@ public class URI_1038_snack {
 		
 		String formattedTotal = new DecimalFormat("0.00").format(total);
 		System.out.println("Total: R$ " + formattedTotal);
+
+		scanner.close();
 	}
 }

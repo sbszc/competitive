@@ -12,6 +12,8 @@ public class URI_1002_area_of_a_circle {
 	    
 	    DecimalFormat df = new DecimalFormat("0.0000");
 	    System.out.println("A="+df.format(area));
+
+		scanner.close();
 	}
 
 }

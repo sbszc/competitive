@@ -18,5 +18,7 @@ public class URI_1037_interval {
 		}else {
 			System.out.println("Fora de intervalo");
 		}
+
+		scanner.close();
 	}
 }

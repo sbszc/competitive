@@ -12,5 +12,7 @@ public class URI_1007_difference {
 		int diff = a * b - c * d;
 		
 		System.out.println("DIFERENCA = " + diff);
+
+		scanner.close();
 	}
 }

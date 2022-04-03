@@ -18,5 +18,7 @@ public class URI_1047_game_time_with_minutes {
 		int totalHours = totalMinutes / MINUTES_PER_HOUR;
 		totalMinutes = totalMinutes % MINUTES_PER_HOUR;
 		System.out.println("O JOGO DUROU " + totalHours + " HORA(S) E " + totalMinutes + " MINUTO(S)");
+
+		scanner.close();
 	}
 }

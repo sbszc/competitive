@@ -20,5 +20,7 @@ public class URI_1018_banknotes {
 			n -= banknote * quantity;
 			System.out.println(quantity + " nota(s) de R$ " + df.format(banknote));
 		}
+
+		scanner.close();
 	}
 }

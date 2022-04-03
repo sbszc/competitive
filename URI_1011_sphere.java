@@ -13,5 +13,7 @@ public class URI_1011_sphere {
 
 		String formattedVolume = new DecimalFormat("0.000").format(volume);
 		System.out.println("VOLUME = " + formattedVolume);
+
+		scanner.close();
 	}
 }

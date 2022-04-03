@@ -13,6 +13,8 @@ public class URI_1013_the_greatest {
 		int higher2 = higher(higher1, val3);
 
 		System.out.println(higher2 + " eh o maior");
+
+		scanner.close();
 	}
 
 	private static int higher(int a, int b) {

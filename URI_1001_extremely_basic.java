@@ -10,6 +10,7 @@ public class URI_1001_extremely_basic {
         int x = a + b;
         
         System.out.println("X = " + x);
+        scanner.close();
 	}
 
 }

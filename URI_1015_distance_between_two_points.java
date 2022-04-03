@@ -15,5 +15,7 @@ public class URI_1015_distance_between_two_points {
 
 		String formattedDistance = new DecimalFormat("0.0000").format(distance);
 		System.out.println(formattedDistance);
+
+		scanner.close();
 	}
 }

@@ -14,5 +14,7 @@ public class URI_1010_simple_calculate {
 
 		String formattedValueToPay = new DecimalFormat("0.00").format(valueToPay);
 		System.out.println("VALOR A PAGAR: R$ " + formattedValueToPay);
+
+		scanner.close();
 	}
 }

@@ -1,14 +1,14 @@
 const lines = ["556"];
 
-let n = Number(lines[0]);
+let seconds = Number(lines[0]);
 
 const SECONDS_PER_MINUTE = 60;
 const MINUTES_PER_HOUR = 60;
+const SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
 
-let hours = Math.floor(n / (SECONDS_PER_MINUTE * MINUTES_PER_HOUR));
-n -= hours * SECONDS_PER_MINUTE * MINUTES_PER_HOUR;
-let minutes = Math.floor(n / SECONDS_PER_MINUTE);
-n -= minutes * SECONDS_PER_MINUTE;
-let seconds = n;
+let hours = Math.floor(seconds / SECONDS_PER_HOUR);
+seconds %= SECONDS_PER_HOUR;
+let minutes = Math.floor(seconds / SECONDS_PER_MINUTE);
+seconds %= SECONDS_PER_MINUTE;
 
 console.log(`${hours}:${minutes}:${seconds}`);

@@ -23,5 +23,7 @@ public class URI_1012_area {
 		System.out.println("TRAPEZIO: " + df.format(trapeziumArea));
 		System.out.println("QUADRADO: " + df.format(squareArea));
 		System.out.println("RETANGULO: " + df.format(rectangleArea));
+		
+		scanner.close();
 	}
 }

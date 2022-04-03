@@ -15,5 +15,6 @@ public class URI_1035_selection_test_1 {
 			System.out.println("Valores nao aceitos");
 		}
 
+		scanner.close();
 	}
 }

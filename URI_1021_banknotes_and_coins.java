@@ -30,5 +30,7 @@ public class URI_1021_banknotes_and_coins {
 			safeMoney %= safeCoin;
 			System.out.println(quantity + " moeda(s) de R$ " + df.format(coin));
 		}
+
+		scanner.close();
 	}
 }

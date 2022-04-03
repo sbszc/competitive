@@ -18,5 +18,7 @@ public class URI_1020_age_in_days {
 		System.out.println(years + " ano(s)");
 		System.out.println(months + " mes(es)");
 		System.out.println(days + " dia(s)");
+
+		scanner.close();
 	}
 }

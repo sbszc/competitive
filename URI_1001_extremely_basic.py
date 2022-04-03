@@ -1,5 +1,7 @@
-a = Number(lines[0]);
-b = Number(lines[1]);
+lines = ['1', '2']
 
-x = a + b;
-print('X = ' + x);
+a = Number(lines[0])
+b = Number(lines[1])
+
+x = a + b
+print('X = ' + x)

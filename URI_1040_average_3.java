@@ -37,5 +37,7 @@ public class URI_1040_average_3 {
 			}
 			System.out.println("Media final: " + df.format(avg));
 		}
+
+		scanner.close();
 	}
 }

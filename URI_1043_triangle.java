@@ -17,5 +17,7 @@ public class URI_1043_triangle {
 			float trapeziumArea = (a + b) * c / 2;
 			System.out.println("Area = " + df.format(trapeziumArea));
 		}
+
+		scanner.close();
 	}
 }

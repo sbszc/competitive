@@ -20,5 +20,7 @@ public class URI_1036_bhaskaras_formula {
 			System.out.println("R1 = " + df.format(r1));
 			System.out.println("R2 = " + df.format(r2));
 		}
+
+		scanner.close();
 	}
 }

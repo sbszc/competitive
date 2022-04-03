@@ -14,5 +14,7 @@ public class URI_1046_game_time {
 			totalHours = endHour + 24 - startHour;
 		}
 		System.out.println("O JOGO DUROU " + totalHours + " HORA(S)");
+
+		scanner.close();
 	}
 }

@@ -14,5 +14,7 @@ public class URI_1017_fuel_spent {
 
 		String formattedLiters = new DecimalFormat("0.000").format(liters);
 		System.out.println(formattedLiters);
+
+		scanner.close();
 	}
 }

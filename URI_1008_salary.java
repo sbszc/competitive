@@ -15,5 +15,7 @@ public class URI_1008_salary {
 		
 		System.out.println("NUMBER = " + emplNumber);
 		System.out.println("SALARY = U$ " + formattedSalaryPerMonth);
+
+		scanner.close();
 	}
 }

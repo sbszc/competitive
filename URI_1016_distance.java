@@ -13,5 +13,7 @@ public class URI_1016_distance {
 		int timeInMinutes = (int) (distance / (yVelocity - xVelocity) * MINUTES_PER_HOUR);
 
 		System.out.println(timeInMinutes + " minutos");
+
+		scanner.close();
 	}
 }

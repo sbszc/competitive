@@ -14,5 +14,7 @@ public class URI_1005_average_1 {
 		
 		String formattedAvg = new DecimalFormat("0.00000").format(avg);
 		System.out.println("MEDIA = " + formattedAvg);
+
+		scanner.close();
 	}
 }
